@@ -1,0 +1,22 @@
+@import url('http://fonts.cdnfonts.com/css/magicmedieval');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MagicMedieval', sans-serif;
+    /* default layout */
+    display: flex;
+    align-items: center;
+    /* need height for the layout to work */
+    justify-content: center;
+    height: 100vh;
+    /* overflow to hide the scrollbars */
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    
+}

@@ -1,11 +1,4 @@
 @font-face {
-    font-family: 'MagicMedieval Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('MagicMedieval Regular'), url('fonts/Magim___.woff') format('woff');
-}
-
-@font-face {
     font-family: 'Keyrune';
     src: url('//cdn.jsdelivr.net/npm/keyrune@latest/fonts/keyrune.eot');
     src: url('//cdn.jsdelivr.net/npm/keyrune@latest/fonts/keyrune.eot?#iefix') format('embedded-opentype'),
@@ -25,7 +18,7 @@ html {
     background: url('https://images.alphacoders.com/265/thumb-1920-265693.png');
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'MagicMedieval Regular';
+    font-family: 'MagicMedieval';
     color: white;
 }
 

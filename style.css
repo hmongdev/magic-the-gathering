@@ -25,3 +25,57 @@ body {
     width: 90vw;
 }
 
+.land {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    /* flex controls the space each land will take up */
+    flex: 0.4;
+    margin: 10px;
+    /* the parent (container) is relative */
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+/* Text of lands */
+.land h3 {
+    font-size: 2rem;
+    /* the child (land) is absolute */
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+/* active land IMAGE styling */
+.land.active {
+    /* Grow to 5 while active */
+    flex: 5;
+}
+
+/* active land TEXT styling */
+.land.active h3 {
+    opacity: 1;
+    /* text transition will be delayed 0.4s */
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+/* media query that only shows three lands while width is < 480px */
+/* whenever width is > 480px, the 4th and 5th land will show */
+@media (max-width: 480px) {
+    .container {
+        width: 100vw;
+    }
+
+    /* remove last two lands by using pseudo-selector */
+    .land:nth-of-type(4),
+    .land:nth-of-type(5) {
+        /* removes the lands */
+        display: none;
+    }
+}

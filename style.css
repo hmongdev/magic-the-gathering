@@ -1,4 +1,16 @@
-@import url('http://fonts.cdnfonts.com/css/magicmedieval');
+/* @import url('http://fonts.cdnfonts.com/css/magicmedieval'); */
+
+@font-face {
+    font-family: 'Keyrune';
+    src: url('//cdn.jsdelivr.net/npm/keyrune@latest/fonts/keyrune.eot');
+    src: url('//cdn.jsdelivr.net/npm/keyrune@latest/fonts/keyrune.eot?#iefix') format('embedded-opentype'),
+        url('//cdn.jsdelivr.net/npm/keyrune@latest/fonts/keyrune.woff2') format('woff2'),
+        url('//cdn.jsdelivr.net/npm/keyrune@latest/fonts/keyrune.woff') format('woff'),
+        url('//cdn.jsdelivr.net/npm/keyrune@latest/fonts/keyrune.ttf') format('truetype'),
+        url('//cdn.jsdelivr.net/npm/keyrune@latest/fonts/keyrune.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     box-sizing: border-box;
@@ -47,7 +59,7 @@ h1 {
 
 /* Text of lands */
 .land h3 {
-    font-size: 2rem;
+    font-size: 5rem;
     /* the child (land) is absolute */
     position: absolute;
     bottom: 20px;

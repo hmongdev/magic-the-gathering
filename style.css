@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
+html {
     font-family: 'MagicMedieval', sans-serif;
+}
+
+body {
     /* default layout */
     display: flex;
     align-items: center;
@@ -17,6 +20,4 @@ body {
     margin: 0;
 }
 
-.container {
-    
-}
+.container {}

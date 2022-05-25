@@ -70,7 +70,7 @@ h1 {
 
 /* Text of lands */
 .land h3 {
-    font-size: 5rem;
+    font-size: 3rem;
     /* the child (land) is absolute */
     position: absolute;
     bottom: 20px;

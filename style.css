@@ -14,7 +14,7 @@
 
 html {
     background: url('https://images.alphacoders.com/265/thumb-1920-265693.png');
-    font-family: 'magicmedievalregular';
+    font-family: 'magicmedievalregular', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;

@@ -1,3 +1,11 @@
+/* MagicMedieval Font */
+@font-face {
+    font-family: 'MagicMedieval Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagicMedieval Regular'), url('Magim___.woff') format('woff');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -6,8 +14,10 @@ html {
     background: url('https://images.alphacoders.com/265/thumb-1920-265693.png');
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'MagicMedieval';
     color: white;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -24,7 +34,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .container {

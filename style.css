@@ -2,7 +2,7 @@
     font-family: 'MagicMedieval Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('MagicMedieval Regular'), url('/fonts/Magim___.woff') format('woff');
+    src: local('MagicMedieval Regular'), url('../fonts/Magim___.woff') format('woff');
 }
 
 @font-face {
